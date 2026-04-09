@@ -4,6 +4,7 @@ import livingImg from "@/assets/room-living.jpg";
 import kitchenImg from "@/assets/room-kitchen.jpg";
 import outdoorImg from "@/assets/room-outdoor.jpg";
 import heroImg from "@/assets/hero-veranda.jpg";
+import churrasqueiraImg from "@/assets/room-churrasqueira.jpg";
 
 const spaces = [
   {
@@ -28,8 +29,13 @@ const spaces = [
   },
   {
     title: "Área Externa",
-    description: "Churrasqueira, deck e um jardim cercado pela Mata Atlântica.",
+    description: "Deck e jardim cercado pela Mata Atlântica.",
     image: outdoorImg,
+  },
+  {
+    title: "Churrasqueira",
+    description: "Churrasqueira com vista para a mata, perfeita para reunir a família.",
+    image: churrasqueiraImg,
   },
 ];
 
