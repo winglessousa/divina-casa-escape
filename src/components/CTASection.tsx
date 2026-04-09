@@ -20,21 +20,21 @@ const CTASection = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://wa.me/5573999155655?text=Olá! Gostaria de reservar a Divina Casa"
+                  href="https://wa.me/5573998010959?text=Olá! Gostaria de reservar a Divina Casa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-xl text-lg hover:opacity-90 transition-all hover:scale-105 duration-300"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  Falar com Carol
+                  Falar com Jessica
                 </a>
                 <a
-                  href="https://www.airbnb.com.br/rooms/1513745259325382041"
+                  href="https://www.booking.com/Share-mrnf1Z"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 border border-border text-foreground rounded-xl text-lg hover:bg-secondary transition-all duration-300"
                 >
-                  Ver no Airbnb
+                  Ver no Booking
                 </a>
               </div>
             </div>
