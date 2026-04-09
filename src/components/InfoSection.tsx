@@ -54,8 +54,8 @@ const InfoSection = () => {
                     <Dog className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-foreground font-medium text-sm">Pets sob consulta</p>
-                    <p className="text-muted-foreground text-sm mt-1">Entre em contato antes de trazer seu pet.</p>
+                    <p className="text-foreground font-medium text-sm">Seu pet é bem-vindo</p>
+                    <p className="text-muted-foreground text-sm mt-1">Pedimos apenas que entre em contato previamente para alinharmos os detalhes da estadia.</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">

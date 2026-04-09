@@ -45,7 +45,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/5573991555655?text=Olá! Gostaria de reservar a Divina Casa"
+            href="https://wa.me/5573999155655?text=Olá! Gostaria de reservar a Divina Casa"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 bg-primary text-primary-foreground text-sm font-medium rounded-lg hover:opacity-90 transition-opacity"
@@ -76,7 +76,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/5573991555655?text=Olá! Gostaria de reservar a Divina Casa"
+            href="https://wa.me/5573999155655?text=Olá! Gostaria de reservar a Divina Casa"
             target="_blank"
             rel="noopener noreferrer"
             className="block mt-4 text-center px-5 py-3 bg-primary text-primary-foreground text-sm font-medium rounded-lg"
