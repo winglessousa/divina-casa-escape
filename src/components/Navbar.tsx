@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logoImg from "@/assets/logo-divina-casa.png";
 
 const navItems = [
   { label: "Início", href: "#hero" },
@@ -26,11 +27,13 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6">
-        <a href="#hero" className="font-display text-xl font-semibold tracking-wider text-foreground">
-          Divina Casa
+        <a href="#hero" className="flex items-center gap-3">
+          <img src={logoImg} alt="Divina Casa" className="w-10 h-10 rounded-full object-cover" />
+          <span className="font-display text-xl font-semibold tracking-wider text-foreground">
+            Divina Casa
+          </span>
         </a>
 
-        {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <a
@@ -51,7 +54,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Mobile toggle */}
         <button
           className="md:hidden text-foreground"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -61,7 +63,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden glass-card mt-2 mx-4 rounded-xl p-6 animate-scale-in">
           {navItems.map((item) => (

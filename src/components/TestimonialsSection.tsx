@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+import { Star, Instagram } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const testimonials = [
@@ -30,7 +30,7 @@ const TestimonialsSection = () => {
           </h2>
         </AnimatedSection>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
           {testimonials.map((t, i) => (
             <AnimatedSection key={t.name} delay={i * 150}>
               <div className="glass-card rounded-2xl p-8 h-full flex flex-col">
@@ -47,6 +47,25 @@ const TestimonialsSection = () => {
             </AnimatedSection>
           ))}
         </div>
+
+        {/* Instagram CTA */}
+        <AnimatedSection>
+          <div className="text-center">
+            <a
+              href="https://www.instagram.com/divinacasa_itacare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-8 py-4 glass-card rounded-xl hover:border-primary/30 transition-all duration-300 group"
+            >
+              <Instagram className="w-5 h-5 text-primary" />
+              <span className="text-foreground font-medium text-sm">Siga no Instagram</span>
+              <span className="text-muted-foreground text-sm">@divinacasa_itacare</span>
+            </a>
+            <p className="text-muted-foreground text-xs font-body mt-4">
+              Veja mais avaliações e fotos dos nossos hóspedes no Instagram ★★★★★
+            </p>
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );

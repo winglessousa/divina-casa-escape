@@ -1,6 +1,7 @@
 import AnimatedSection from "./AnimatedSection";
 import bedroomImg from "@/assets/room-bedroom.jpg";
 import livingImg from "@/assets/room-living.jpg";
+import kitchenImg from "@/assets/room-kitchen.jpg";
 import outdoorImg from "@/assets/room-outdoor.jpg";
 import heroImg from "@/assets/hero-veranda.jpg";
 
@@ -12,13 +13,18 @@ const spaces = [
   },
   {
     title: "Quarto",
-    description: "Cama king, lençóis macios e a brisa da natureza como acalanto.",
+    description: "Cama de casal, lençóis macios e a brisa da natureza como acalanto.",
     image: bedroomImg,
   },
   {
-    title: "Sala & Cozinha",
-    description: "Espaço integrado, equipado e aconchegante para momentos a dois ou em família.",
+    title: "Sala",
+    description: "Espaço amplo, aconchegante e com vista para a Mata Atlântica.",
     image: livingImg,
+  },
+  {
+    title: "Cozinha",
+    description: "Cozinha equipada com tudo que você precisa para momentos em família.",
+    image: kitchenImg,
   },
   {
     title: "Área Externa",
