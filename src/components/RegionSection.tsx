@@ -3,10 +3,10 @@ import { MapPin } from "lucide-react";
 import jeribucacuImg from "@/assets/beach-jeribucacu.webp";
 
 const beaches = [
-  { name: "Praia de Jeribucaçu", distance: "5 min", mapUrl: "https://maps.google.com/?q=Praia+de+Jeribucaçu+Itacaré" },
-  { name: "Praia da Concha", distance: "10 min", mapUrl: "https://maps.google.com/?q=Praia+da+Concha+Itacaré" },
-  { name: "Tiririca", distance: "12 min", mapUrl: "https://maps.google.com/?q=Praia+da+Tiririca+Itacaré" },
-  { name: "Prainha", distance: "15 min", mapUrl: "https://maps.google.com/?q=Prainha+Itacaré" },
+  { name: "Praia de Jeribucaçu", mapUrl: "https://maps.google.com/?q=Praia+de+Jeribucaçu+Itacaré" },
+  { name: "Praia da Concha", mapUrl: "https://maps.google.com/?q=Praia+da+Concha+Itacaré" },
+  { name: "Tiririca", mapUrl: "https://maps.google.com/?q=Praia+da+Tiririca+Itacaré" },
+  { name: "Prainha", mapUrl: "https://maps.google.com/?q=Prainha+Itacaré" },
 ];
 
 const restaurants = [
@@ -73,7 +73,6 @@ const RegionSection = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-foreground font-medium text-sm">{b.name}</p>
-                    <p className="text-muted-foreground text-xs mt-1">{b.distance} de carro</p>
                   </div>
                   <MapPin className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
                 </div>
