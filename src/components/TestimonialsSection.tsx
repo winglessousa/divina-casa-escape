@@ -21,7 +21,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-16 md:py-20">
       <div className="container mx-auto px-6">
         <AnimatedSection className="text-center mb-16">
           <p className="text-primary text-sm uppercase tracking-[0.3em] mb-4 font-body">Depoimentos</p>

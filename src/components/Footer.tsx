@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="border-t border-border py-12">
       <div className="container mx-auto px-6 text-center">
-        <div className="flex items-center justify-center gap-3 mb-4">
-          <img src={logoImg} alt="Divina Casa" className="w-12 h-12 rounded-full object-cover" />
+        <div className="flex flex-col items-center gap-4 mb-4">
+          <img src={logoImg} alt="Divina Casa" className="w-20 h-20 rounded-full object-cover" />
           <p className="font-display text-xl font-semibold text-foreground">Divina Casa</p>
         </div>
         <p className="text-muted-foreground text-sm font-body mb-4">

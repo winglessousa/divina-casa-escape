@@ -23,7 +23,7 @@ const HeroSection = () => {
           Onde a natureza<br />
           <span className="text-gradient">abraça sua alma</span>
         </h1>
-        <p className="text-muted-foreground text-lg md:text-xl mb-10 animate-fade-up font-body max-w-xl mx-auto"
+        <p className="text-[#f5f0eb] text-lg md:text-xl mb-10 animate-fade-up font-body max-w-xl mx-auto"
            style={{ animationDelay: "0.4s" }}>
           Um refúgio exclusivo próximo à Praia de Jeribucaçu. 
           Conforto, silêncio e vista privilegiada para a Mata Atlântica.
