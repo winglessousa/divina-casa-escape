@@ -1,9 +1,8 @@
-import heroImg from "@/assets/hero-veranda.jpg";
+import heroImg from "@/assets/hero-main.jpg";
 
 const HeroSection = () => {
   return (
     <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
       <div className="absolute inset-0">
         <img
           src={heroImg}
@@ -15,7 +14,6 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
         <p className="text-primary text-sm uppercase tracking-[0.3em] mb-6 animate-fade-up font-body">
           Itacaré · Bahia · Brasil
@@ -47,7 +45,6 @@ const HeroSection = () => {
           </a>
         </div>
 
-        {/* Social proof */}
         <div className="mt-12 flex items-center justify-center gap-6 text-muted-foreground text-sm animate-fade-up" style={{ animationDelay: "0.8s" }}>
           <span className="flex items-center gap-1">
             <span className="text-primary">★★★★★</span> 5.0 no Airbnb
@@ -59,7 +56,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-muted-foreground/30 rounded-full flex items-start justify-center p-2">
           <div className="w-1 h-2 bg-primary rounded-full" />

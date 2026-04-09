@@ -1,5 +1,4 @@
 import AnimatedSection from "./AnimatedSection";
-import beachImg from "@/assets/beach-jeribucacu.jpg";
 import { MapPin } from "lucide-react";
 
 const beaches = [
@@ -29,36 +28,56 @@ const RegionSection = () => {
           </h2>
         </AnimatedSection>
 
-        {/* Beach highlight */}
-        <AnimatedSection className="mb-16">
-          <div className="relative rounded-2xl overflow-hidden aspect-[21/9]">
-            <img
-              src={beachImg}
-              alt="Praia de Jeribucaçu"
-              loading="lazy"
-              width={800}
-              height={600}
+        {/* Video highlight */}
+        <AnimatedSection className="mb-8">
+          <div className="relative rounded-2xl overflow-hidden aspect-video">
+            <video
+              src="/videos/jeribucacu.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-transparent flex items-center">
-              <div className="p-8 md:p-16 max-w-lg">
-                <h3 className="font-display text-2xl md:text-4xl font-semibold text-foreground mb-4">
-                  Praia de Jeribucaçu
-                </h3>
-                <p className="text-muted-foreground font-body mb-6">
-                  Uma das praias mais preservadas do litoral baiano, a poucos minutos da Divina Casa. 
-                  Águas cristalinas, coqueiros e natureza intocada.
-                </p>
-                <a
-                  href="https://maps.google.com/?q=Praia+de+Jeribucaçu+Itacaré"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline"
-                >
-                  <MapPin className="w-4 h-4" /> Ver no mapa
-                </a>
-              </div>
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent pointer-events-none" />
+          </div>
+        </AnimatedSection>
+
+        {/* Description below video */}
+        <AnimatedSection className="mb-8">
+          <div className="glass-card rounded-2xl p-8 md:p-12 text-center">
+            <h3 className="font-display text-2xl md:text-4xl font-semibold text-foreground mb-4">
+              Praia de Jeribucaçu
+            </h3>
+            <p className="text-muted-foreground font-body max-w-2xl mx-auto mb-6">
+              Uma das praias mais preservadas do litoral baiano, a poucos minutos da Divina Casa. 
+              Águas cristalinas, coqueiros e natureza intocada. O paraíso perfeito para relaxar e se reconectar.
+            </p>
+            <a
+              href="https://maps.google.com/?q=Praia+de+Jeribucaçu+Itacaré"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline"
+            >
+              <MapPin className="w-4 h-4" /> Ver no mapa
+            </a>
+          </div>
+        </AnimatedSection>
+
+        {/* Google Maps embed */}
+        <AnimatedSection className="mb-16">
+          <div className="rounded-2xl overflow-hidden aspect-[21/9]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5!2d-38.98!3d-14.28!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739a8e3!2sPraia+de+Jeribuca%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Localização da Divina Casa"
+              className="w-full h-full"
+            />
           </div>
         </AnimatedSection>
 
