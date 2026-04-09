@@ -36,6 +36,14 @@ const CTASection = () => {
                 >
                   Ver no Booking
                 </a>
+                <a
+                  href="https://www.airbnb.com.br/rooms/1513745259325382041"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-8 py-4 border border-border text-foreground rounded-xl text-lg hover:bg-secondary transition-all duration-300"
+                >
+                  Ver no Airbnb
+                </a>
               </div>
             </div>
           </div>
