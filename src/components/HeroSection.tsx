@@ -30,7 +30,7 @@ const HeroSection = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.6s" }}>
           <a
-            href="https://wa.me/5573999155655?text=Olá! Gostaria de reservar a Divina Casa"
+            href="https://wa.me/5573998010959?text=Olá! Gostaria de reservar a Divina Casa"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-primary text-primary-foreground font-medium rounded-lg text-lg hover:opacity-90 transition-all hover:scale-105 duration-300"
