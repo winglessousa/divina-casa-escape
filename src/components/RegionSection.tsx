@@ -10,11 +10,11 @@ const beaches = [
 ];
 
 const restaurants = [
+  { name: "Ohana", desc: "Culinária Oriental 🍣", whatsapp: "5573999914621" },
   { name: "Jeris", desc: "Comida caseira", whatsapp: "5573999744634" },
-  { name: "Flor de Pitaya", desc: "Culinária criativa", whatsapp: "5511941311602" },
+  { name: "Flor de Pitaya", desc: "Comida caseira", whatsapp: "5511941311602" },
   { name: "Casa do João", desc: "Pizza e pão", whatsapp: "5573999823877" },
   { name: "Marambaia", desc: "Pizzaria", whatsapp: "5573998488362" },
-  { name: "Ohana", desc: "Culinária Oriental 🍣", whatsapp: "5573999914621" },
   { name: "Stop", desc: "Burger", whatsapp: "5573998110502" },
   { name: "Da Vila", desc: "Franguinho", whatsapp: "5573999172666" },
 ];
@@ -131,9 +131,17 @@ const RegionSection = () => {
         {/* Address */}
         <AnimatedSection className="mt-12">
           <h3 className="font-display text-2xl font-semibold text-foreground mb-4">Endereço</h3>
-          <p className="text-muted-foreground font-body text-sm">
+          <p className="text-muted-foreground font-body text-sm mb-3">
             Travessa Boca da Mata, nº 3051, Jeribucaçu. Última entrada à esquerda antes do campo seco.
           </p>
+          <a
+            href="https://maps.google.com/?q=Travessa+Boca+da+Mata+3051+Jeribucaçu+Itacaré"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline"
+          >
+            <MapPin className="w-4 h-4" /> Ver no mapa
+          </a>
         </AnimatedSection>
       </div>
     </section>
