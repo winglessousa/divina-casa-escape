@@ -108,6 +108,33 @@ const RegionSection = () => {
             ))}
           </div>
         </AnimatedSection>
+
+        {/* Useful contacts */}
+        <AnimatedSection className="mt-12">
+          <h3 className="font-display text-2xl font-semibold text-foreground mb-6">Telefones Úteis</h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {contacts.map((c) => (
+              <a
+                key={c.name}
+                href={`https://wa.me/${c.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="glass-card rounded-xl p-5 hover:border-primary/30 transition-colors duration-300 flex items-center justify-between group"
+              >
+                <p className="text-foreground font-medium text-sm">{c.name}</p>
+                <span className="text-xs text-primary opacity-0 group-hover:opacity-100 transition-opacity">WhatsApp →</span>
+              </a>
+            ))}
+          </div>
+        </AnimatedSection>
+
+        {/* Address */}
+        <AnimatedSection className="mt-12">
+          <h3 className="font-display text-2xl font-semibold text-foreground mb-4">Endereço</h3>
+          <p className="text-muted-foreground font-body text-sm">
+            Travessa Boca da Mata, nº 3051, Jeribucaçu. Última entrada à esquerda antes do campo seco.
+          </p>
+        </AnimatedSection>
       </div>
     </section>
   );
