@@ -12,10 +12,16 @@ const beaches = [
 const restaurants = [
   { name: "Jeris", desc: "Comida caseira", whatsapp: "5573999744634" },
   { name: "Flor de Pitaya", desc: "Culinária criativa", whatsapp: "5511941311602" },
-  { name: "Casa do João", desc: "Sabores regionais", whatsapp: "5573999823877" },
-  { name: "Marambaia", desc: "Frutos do mar", whatsapp: "5573998488362" },
-  { name: "Ohana", desc: "Cozinha natural", whatsapp: "5573999914621" },
-  { name: "Stop", desc: "Lanches e petiscos", whatsapp: "5573998110502" },
+  { name: "Casa do João", desc: "Pizza e pão", whatsapp: "5573999823877" },
+  { name: "Marambaia", desc: "Pizzaria", whatsapp: "5573998488362" },
+  { name: "Ohana", desc: "Culinária Oriental 🍣", whatsapp: "5573999914621" },
+  { name: "Stop", desc: "Burger", whatsapp: "5573998110502" },
+  { name: "Da Vila", desc: "Franguinho", whatsapp: "5573999172666" },
+];
+
+const contacts = [
+  { name: "Alex - Táxi", whatsapp: "5573998522823" },
+  { name: "Colônia de Pesca", whatsapp: "5573999858670" },
 ];
 
 const RegionSection = () => {
