@@ -10,7 +10,7 @@ const beaches = [
 ];
 
 const restaurants = [
-  { name: "Ohana", desc: "Culinária Oriental 🍣", whatsapp: "5573999914621" },
+  { name: "Ohana", desc: "Culinária Oriental", whatsapp: "5573999914621" },
   { name: "Jeris", desc: "Comida caseira", whatsapp: "5573999744634" },
   { name: "Flor de Pitaya", desc: "Comida caseira", whatsapp: "5511941311602" },
   { name: "Casa do João", desc: "Pizza e pão", whatsapp: "5573999823877" },
